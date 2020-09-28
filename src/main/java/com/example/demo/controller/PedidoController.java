@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 //Indica ao Spring que é um Controlador
 @RestController
-@RequestMapping("/pedidos");
+@RequestMapping("/pedidos")
 public class PedidoController {   
 
     //Psiu, coloca o objeto aqui pra mim
