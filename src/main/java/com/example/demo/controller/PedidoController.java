@@ -24,7 +24,7 @@ public class PedidoController {
 
     //Psiu, coloca o objeto aqui pra mim
     @Autowired
-    private PedidoRepository repository;    //cria um atributo que armazenará um objeto do tipo PedidoRepository
+    private PedidoRepository repository;    //cria um atributo que armazenará um objeto do tipo PedidoRepository'
 
     //Método responsável por fazer o cadastro um pedido
     @PostMapping("/")
